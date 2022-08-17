@@ -11,7 +11,7 @@ const Navbar = () => {
       px="20px"
       justifyContent="space-around"
       sx={{
-        gap: { xs: "40px", sm: "122px" },
+        gap: { xs: "40px", sm: "123px" },
         mt: { sm: "32px", xs: "20px" },
         justifyContent: "none",
       }}
@@ -21,7 +21,7 @@ const Navbar = () => {
         alt="Logo"
         style={{ height: "48px", width: "48px", margin: "0 20px" }}
       />
-      <Stack direction="row" gap="40px" fontSize="2rem" alignItems="flex-end">
+      <Stack direction="row" gap="40px" fontSize="24px" alignItems="flex-end">
         <Link
           to="/home"
           style={{
