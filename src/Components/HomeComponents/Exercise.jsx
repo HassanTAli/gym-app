@@ -31,7 +31,7 @@ const Exercise = ({ exercises, setExercises, bodyPart }) => {
     };
 
     fetchExercisesData();
-  }, [bodyPart]);
+  }, [bodyPart, setExercises]);
 
   const indexOfLastElement = currentPage * exercisePerPage; // 3*9 = 27
   const indexOfFirstElement = indexOfLastElement - exercisePerPage; // 27-9 =18
